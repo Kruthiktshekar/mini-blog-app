@@ -1,1 +1,1 @@
-export const host = 'https://mini-blog-app-api.onrender/api'
+export const host = 'https://mini-blog-app-api.onrender.com'
