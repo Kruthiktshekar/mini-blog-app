@@ -6,7 +6,7 @@ const configScoket = () => {
 
 let io = new Server(3232, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://mini-blog-app-psi.vercel.app",
     },
     connectionStateRecovery: {}
   });
