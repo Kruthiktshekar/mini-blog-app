@@ -8,7 +8,7 @@ function ChatContainer() {
   
   const [currentChat, setCurrentChat] = useState({})
 
-  const socket = io('http://localhost:3232')
+  const socket = io('https://mini-blog-app-api.onrender.com:3232')
 
   return (
     <div>
