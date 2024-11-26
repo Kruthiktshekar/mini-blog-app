@@ -8,7 +8,10 @@ function ChatContainer() {
   
   const [currentChat, setCurrentChat] = useState({})
 
-  const socket = io('https://mini-blog-app-api.onrender.com')
+  const socket = io('https://mini-blog-app-api.onrender.com',{
+  transports: ['websocket'],
+  withCredentials: true,
+})
 
   return (
     <div>
