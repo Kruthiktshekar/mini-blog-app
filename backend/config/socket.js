@@ -1,10 +1,12 @@
 import {Server} from 'socket.io'
+import express from 'express'
 
 
 const configScoket = () => {
 
-
-let io = new Server(3232, {
+const app = express();
+const server = http.createServer(app)
+let io = new Server(server, {
     cors: {
       origin: "https://mini-blog-app-psi.vercel.app",
     },
